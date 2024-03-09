@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection{
+    color: rgb(71, 71, 71);
+}
+
+#navbar {
+    background-color: rgba(128, 128, 128, 0.097);
+    backdrop-filter: blur(10px);
+}
